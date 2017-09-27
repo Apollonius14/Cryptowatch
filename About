@@ -1,7 +1,0 @@
-A simple Python project with one major objective and one minor objective:
-
-1. (Major) write a Python application that connects to Kraken API, requests cryptocurrency exchange rates from periodically, and plots them live. 
-
-2. (Minor) version control in GIT.
-
-Future work: exploit arbitrage in cryptocurrencies.

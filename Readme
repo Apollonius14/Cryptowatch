@@ -1,0 +1,30 @@
+Made by Apollonius14 September 27 2017, London
+A simple Python project with one major objective
+and one minor objective:
+
+1. (Major) write a Python application that connects to Kraken API,
+   requests cryptocurrency exchange rates  periodically, and 
+   plots them live. 
+
+2. (Minor) version control in GIT.
+
+Files:
+
+** KAPI.py
+API class that performs queries on Krakens's
+public API. Returns the price of a currency pair
+as a price-point object (Time, Pair ,Kraken sell price)
+
+** Plotter.py
+Creates MATPLOTLIB live plotter taking price-point-objects
+and returning a plot of the last time period specified by
+user
+
+** Cryptotalk.py
+Calls KAPI and Plotter with user-determined parameters
+Currency-Pair
+Time to keep running
+
+
+Future work: multiple live plots
+Future work: exploit arbitrage in cryptocurrencies.
