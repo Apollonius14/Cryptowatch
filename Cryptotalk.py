@@ -9,6 +9,9 @@ September 27 2017"""
 # Cryptotalk Libraries
 import KAPI
 import Plotter
+from matplotlib.animation import FuncAnimation
+import matplotlib.pyplot as plt
+import datetime
 
 # Import Time
 import time
@@ -39,21 +42,32 @@ P = Plotter.Plotter(pair)
 # plots
 
 timestart = time.time()
+timedatestart = datetime.datetime.now()
+
+def update(frame):
+
+    # TODO: Put all plotter related activities in plotter instance. 
+
+    S.getrates(pair)
+    P.convert(S.pricepoints)
+    P.ax.set_xlim(timedatestart, datetime.datetime.now())
+    P.ax.set_ylim(3000, 5000)
+    P.ln.set_data(P.data_series[0], P.data_series[1])
+    print (P.data_series)
+    return P.ln,
 
 while time.time() < timestart + session_length:
 
-    S.getrates(pair)
+    # TODO: currently creating a new numpy array in Plotter
+    # TODO: each time a new pair is retreived,
+    # TODO: -rather than appending the new data
 
-    # TODO: currently creating a new numpy array in Plotter each time a new pair is retreived,
-    # rather than appending the new data
+    # TODO: below should be console and graph outpu
 
-    P.convert(S.pricepoints)
-
-    time.sleep(3)
+    time.sleep(2)
 
     print("Loop")
 
-    P.show()
+    ani = FuncAnimation(P.fig, update, blit=True)
 
-print(S.pricepoints)
-print(P.data_series)
+    plt.show()

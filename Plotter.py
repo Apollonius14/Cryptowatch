@@ -3,7 +3,7 @@
 # Import numpy and plotters
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.animation as animation
+
 
 
 class Plotter(object):
@@ -12,7 +12,8 @@ class Plotter(object):
 
         self.data_series = np.array([[], []])
         self.title = name
-        self.fig = plt.figure()
+        self.fig, self.ax = plt.subplots()
+        self.ln, = plt.plot([], [], 'ro', animated=True)
 
 # Covert tuples from KAPI into numpy array
 
@@ -38,6 +39,7 @@ class Plotter(object):
 
         self.data_series = [[tseries],[pseries]]
 
+
         # Note that Numpy arrays can be extended "inplace" so each time I want to
         # add a point to a Numpy array I must in one way another copy my data into
         # a new fixed-length container. Issue for liveplotting - see below.
@@ -46,10 +48,16 @@ class Plotter(object):
 
         # Live plot numpy array using pair as title
 
-    def show(self):
+    #def show(self):
 
+    #    def update(frame):
+    #        self.ax.set_xlim(min(self.data_series[0]), max(self.data_series[0]))
+    #        self.ax.set_ylim(min(self.data_series[1]) - 100, max(self.data_series[1]) + 100)
+    #        self.ln.set_data(self.data_series[0], self.data_series[1])
+    #        return self.ln,
 
-        self.fig.show()
-        return
+    #    self.ani = FuncAnimation(self.fig, update, blit=True)
+
+    #    self.fig.show()
 
 
