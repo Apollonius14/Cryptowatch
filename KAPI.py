@@ -1,6 +1,5 @@
 """Cleint API dedicated to Kraken API"""
 
-
 # Creates a client API which can hold
 # either a public or private session
 # with Kraken API. Public sessions are
@@ -8,22 +7,22 @@
 # and currency pair rates Private sessions
 # (future) enable order placement
 
+"""Begin Script"""
+
 # Timestamp
-import time
+import datetime
 
 # HTTP communications
 import requests
 
+
 class pubAPI(object):
-
     def __init__(self):
-
         self.pricepoints = {}
         self.feedata = {}
         self.pairs = []
 
     def getpairs(self):
-
         """ queries Kraken for currency pairs available for information
         : params: none
         : retruns: list self.pairs
@@ -36,11 +35,10 @@ class pubAPI(object):
         return self.pairs
 
     def getrates(self, pair):
-
         """
         Takes the pair in question, creates a dictionary entry
         for it (if not already existing), then appends to
-        it a tuples of time (hh:mm:ss) and rate (float)
+        it a tuples of datetime objects (hh:mm:ss) and rate (float)
         : params: pair (string)
         : returns: dict pricepoints {"PAIR": [(time1,rate1),(time2,rate2)...]
 
@@ -52,28 +50,23 @@ class pubAPI(object):
         """
 
         if pair not in list(self.pricepoints.keys()):
-
             self.pricepoints[pair] = []
 
         rates_resp = requests.post("https://api.kraken.com/0/public/Ticker", data={'pair': [pair]})
 
-        timestamp = time.strftime("%H:%M:%S",time.localtime())
+        timestamp = datetime.datetime.now()
 
-        #Todo: round time to nearest 30 second
+        # Todo: round time to nearest 30 second
 
-        price = float(rates_resp.json()['result']['XETHZEUR']['a'][0])
+        price = float(rates_resp.json()['result']['XXBTZUSD']['a'][0])
 
-        self.pricepoints[pair].append((timestamp,price))
+        self.pricepoints[pair].append((timestamp, float(price)))
 
         return self.pricepoints
 
-
     def getfees(self, pair):
-
         """Returns the fee schedule for the currency pair passed in pair
 
         """
 
         return 0
-
-

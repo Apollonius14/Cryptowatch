@@ -14,15 +14,11 @@ import Plotter
 import time
 
 valid_pairs = []
-session_length = 60
+session_length = 15
 
-# Creates a client API instance with a time limit
+# Creates a client API instance
 
 S = KAPI.pubAPI()
-
-# Creates a live plotter instance
-
-P = Plotter()
 
 # Gets valid pairs for user to chose from
 
@@ -31,16 +27,33 @@ P = Plotter()
 # (for now only one option, single pair, runs once)
 # 1. Requests pair and session length from user
 
-pair = ""
+pair = 'XBTUSD'
+
+# Creates a live plotter instance
+
+P = Plotter.Plotter(pair)
 
 # Invokes a public session between client API and
 # Kraken's API for the duration of session_length
 # to get rates for the pair in question and live
 # plots
 
+timestart = time.time()
+
 while time.time() < timestart + session_length:
 
-    S.getrates('ETHEUR')
-    print (S.pricepoints)
-    time.sleep(4)
+    S.getrates(pair)
 
+    # TODO: currently creating a new numpy array in Plotter each time a new pair is retreived,
+    # rather than appending the new data
+
+    P.convert(S.pricepoints)
+
+    time.sleep(3)
+
+    print("Loop")
+
+    P.show()
+
+print(S.pricepoints)
+print(P.data_series)
