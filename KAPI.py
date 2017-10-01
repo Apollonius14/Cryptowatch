@@ -11,12 +11,14 @@
 
 # Timestamp
 import datetime
+import time
 
 # HTTP communications
 import requests
 
 
 class pubAPI(object):
+
     def __init__(self):
         self.pricepoints = {}
         self.feedata = {}
@@ -25,11 +27,12 @@ class pubAPI(object):
     def getpairs(self):
         """ queries Kraken for currency pairs available for information
         : params: none
-        : retruns: list self.pairs
+        : returns: list self.pairs
 
         """
 
         pairs_resp = requests.get("https://api.kraken.com/0/public/AssetPairs")
+
         self.pairs = [key for key in pairs_resp.json()['result'].keys()]
 
         return self.pairs
@@ -50,17 +53,20 @@ class pubAPI(object):
         """
 
         if pair not in list(self.pricepoints.keys()):
+
             self.pricepoints[pair] = []
+
+
 
         rates_resp = requests.post("https://api.kraken.com/0/public/Ticker", data={'pair': [pair]})
 
         timestamp = datetime.datetime.now()
 
-        # Todo: round time to nearest 30 second
-
-        price = float(rates_resp.json()['result']['XXBTZUSD']['a'][0])
+        price = float(rates_resp.json()['result'][pair]['a'][0])
 
         self.pricepoints[pair].append((timestamp, float(price)))
+
+        time.sleep(3)
 
         return self.pricepoints
 
@@ -69,4 +75,4 @@ class pubAPI(object):
 
         """
 
-        return 0
+        return

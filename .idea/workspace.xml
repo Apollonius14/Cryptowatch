@@ -4,7 +4,9 @@
     <list default="true" id="0ac527ee-e6f3-4720-937e-fec988e42585" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cryptotalk.py" afterPath="$PROJECT_DIR$/Cryptotalk.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KAPI.py" afterPath="$PROJECT_DIR$/KAPI.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plotter.py" afterPath="$PROJECT_DIR$/Plotter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme" afterPath="$PROJECT_DIR$/Readme" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +20,8 @@
       <file leaf-file-name="Datetime.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Datetime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="87" column="13" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="97" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -27,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cryptotalk.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cryptotalk.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cryptotalk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="68" lean-forward="false" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
+            <state relative-caret-position="36">
+              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding>
                 <element signature="e#312#323#0" expanded="true" />
               </folding>
@@ -39,15 +41,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KAPI.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KAPI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KAPI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
               <folding>
                 <element signature="e#42#79#0" expanded="false" />
                 <element signature="e#307#322#0" expanded="true" />
-                <element signature="e#523#838#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -56,10 +57,10 @@
       <file leaf-file-name="Plotter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Plotter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
-                <element signature="e#88#106#0" expanded="true" />
+                <element signature="e#88#119#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,10 +82,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Hello.py" />
-        <option value="$PROJECT_DIR$/KAPI.py" />
         <option value="$PROJECT_DIR$/Plotter.py" />
         <option value="$PROJECT_DIR$/Datetime.py" />
         <option value="$PROJECT_DIR$/Cryptotalk.py" />
+        <option value="$PROJECT_DIR$/KAPI.py" />
       </list>
     </option>
   </component>
@@ -109,7 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,7 +122,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,12 +240,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="87" y="24" width="1280" height="744" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12695925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7664577" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -269,17 +269,82 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hello.py">
+    <entry file="file://$PROJECT_DIR$/Datetime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="false" />
-            <element signature="e#112#221#1" expanded="false" />
-            <element signature="e#290#402#1" expanded="false" />
-            <element signature="e#404#451#0" expanded="false" />
-            <element signature="e#502#526#1" expanded="false" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="67" column="28" lean-forward="true" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+          <folding>
+            <element signature="e#42#79#0" expanded="false" />
+            <element signature="e#307#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="e#88#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="72" column="18" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#79#0" expanded="false" />
+            <element signature="e#307#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#88#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cryptotalk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="48" column="67" lean-forward="false" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding>
+            <element signature="e#312#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -298,7 +363,7 @@
         <state relative-caret-position="738">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="e#88#106#0" expanded="true" />
+            <element signature="e#88#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -307,7 +372,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
           <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#42#79#0" expanded="false" />
+            <element signature="e#307#322#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -315,13 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-            <element signature="e#112#221#1" expanded="false" />
-            <element signature="e#290#402#1" expanded="false" />
-            <element signature="e#404#451#0" expanded="false" />
-            <element signature="e#502#526#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -340,7 +401,7 @@
         <state relative-caret-position="162">
           <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="29" />
           <folding>
-            <element signature="e#88#106#0" expanded="true" />
+            <element signature="e#88#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -349,7 +410,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="59" column="62" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="62" />
-          <folding />
+          <folding>
+            <element signature="e#42#79#0" expanded="false" />
+            <element signature="e#307#322#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -357,13 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-            <element signature="e#112#221#1" expanded="false" />
-            <element signature="e#290#402#1" expanded="false" />
-            <element signature="e#404#451#0" expanded="false" />
-            <element signature="e#502#526#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -371,54 +428,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="94" column="15" lean-forward="false" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-            <element signature="e#112#221#1" expanded="false" />
-            <element signature="e#290#402#1" expanded="false" />
-            <element signature="e#404#451#0" expanded="false" />
-            <element signature="e#502#526#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Datetime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+        <state relative-caret-position="180">
+          <caret line="87" column="13" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="97" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KAPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#79#0" expanded="false" />
-            <element signature="e#307#322#0" expanded="true" />
-            <element signature="e#523#838#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Plotter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
-            <element signature="e#88#106#0" expanded="true" />
+            <element signature="e#88#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cryptotalk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="68" lean-forward="false" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
+        <state relative-caret-position="36">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding>
             <element signature="e#312#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+          <folding>
+            <element signature="e#42#79#0" expanded="false" />
+            <element signature="e#307#322#0" expanded="true" />
           </folding>
         </state>
       </provider>

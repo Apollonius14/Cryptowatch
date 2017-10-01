@@ -13,18 +13,17 @@ Files:
 ** KAPI.py
 API class that performs queries on Krakens's
 public API. Returns the price of a currency pair
-as a price-point object (Time, Pair ,Kraken sell price)
+as a price-point object in a named series in a library 
+{Pair: [(Time,Kraken sell price),(T2,P2)...]}
 
 ** Plotter.py
-Creates MATPLOTLIB live plotter taking price-point-objects
-and returning a plot of the last time period specified by
-user
+Creates MATPLOTLIB plot instance which takes price-point-objects
+and returns a live plot 
 
 ** Cryptotalk.py
 Calls KAPI and Plotter with user-determined parameters
 Currency-Pair
 Time to keep running
+Runs an animation of the live price
 
-
-Future work: multiple live plots
-Future work: exploit arbitrage in cryptocurrencies.
+~ Complete September 29th ~
