@@ -74,5 +74,9 @@ class pubAPI(object):
         """Returns the fee schedule for the currency pair passed in pair
 
         """
+        return
+
+    def getbalance(self):
+
 
         return
