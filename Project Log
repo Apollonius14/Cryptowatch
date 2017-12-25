@@ -1,0 +1,28 @@
+Version 0. Basic functionality **Pub API**
+
+API requests for price and pairs [complete 29 Sep]
+API requests for available trading pairs [Complete 29 Sep]
+Live plotter [Complete 29 Sep]
+
+Version 0. Cleanliness
+
+User input [to-do]
+Clean plotter [Complete 1 Oct]
+
+Version 1. Basic functionality **Private API**#
+
+Note 8 October: almost there. Need to ensure correct encoding of keys.
+
+API request for user balance [to-do]
+API request to place order   [to-do]
+Multipile live plot instances [to-do]
+Live-looping plotter [to-do]
+
+Version 2. Basic functionality **Arbitrage**
+
+API for one new exchange [to-do]
+Hypothesis of price movement when arbitrage exists[to-do]
+Parameters, lags and fees needed to execute Abitrage [to-do]
+
+
+
