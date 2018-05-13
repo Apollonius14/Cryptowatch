@@ -1,12 +1,19 @@
-Made by Apollonius14 September 27 2017, London
-A simple Python project with one major objective
-and one minor objective:
+Computer-generated Suduko game.
+Author: Omar Kadhim - Fall 2017
 
-1. (Major) write a Python application that connects to Kraken API,
-   requests cryptocurrency exchange rates  periodically, and 
-   plots them live. 
+Python script to connect to Kraken cryptocurrency API. Public sessions can be used to
+get currency pair rates and Private sessions can be used to place orders.
+___
 
-2. (Minor) version control in GIT.
+### Update Log:
+
+Rev0: September 2017. Basic working version connects with public Kraken API, prompts
+user to select currency/cryptocurrency pair and live-plots the rate.
+____
+
+### Getting Started:
+
+Ensure the below files are in the same directory. Run Cryptotalk.py and follow prompts.
 
 Files:
 
@@ -25,5 +32,5 @@ Calls KAPI and Plotter with user-determined parameters
 Currency-Pair
 Time to keep running
 Runs an animation of the live price
+_____
 
-~ Complete September 29th ~
