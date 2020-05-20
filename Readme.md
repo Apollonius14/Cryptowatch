@@ -5,7 +5,7 @@ ___
 Author: Omar Kadhim - Fall 2017
 
 Python script to connect to Kraken cryptocurrency API. Public sessions can be used to
-get currency pair rates and Private sessions can be used to place orders.
+get currency pair rates (Complete) and Private sessions can be used to place orders (Not Started Yet)
 ___
 
 ### Update Log:
