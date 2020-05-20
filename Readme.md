@@ -2,7 +2,6 @@ ___
 
 ### Cryptotalk
 
-Computer-generated Suduko game.
 Author: Omar Kadhim - Fall 2017
 
 Python script to connect to Kraken cryptocurrency API. Public sessions can be used to
